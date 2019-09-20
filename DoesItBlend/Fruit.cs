@@ -7,7 +7,10 @@ namespace DoesItBlend
     /// <summary>
     /// A base class representing fruit
     /// </summary>
-    public abstract class Fruit
+    /// can't run abstract 
+    public abstract class Fruit : IBlendable
     {
+        public abstract string Blend(); //abstract doesn't need a body
+        
     }
 }
